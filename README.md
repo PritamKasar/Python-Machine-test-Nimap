@@ -20,19 +20,15 @@ This Django project provides API endpoints to manage projects and clients. Users
    git clone https://github.com/PritamKasar/Python-Machine-test-Nimap.git
    cd nimap_machineTest
    ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Apply migrations:
+2. Apply migrations:
    ```bash
    python manage.py migrate
    ```
-4. Run the development server:
+3. Run the development server:
    ```bash
    python manage.py runserver
    ```
-5. API Endpoints:
+4. API Endpoints:
 
 - `GET /projects/` → List projects assigned to the logged-in user
 - `POST /clients/:id/projects/` → Create project for a client
