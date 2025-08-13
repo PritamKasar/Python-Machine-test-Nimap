@@ -1,5 +1,5 @@
 
-# Django Projects API
+# nimap_machineTest
 
 This Django project provides API endpoints to manage projects and clients. Users can:
 
